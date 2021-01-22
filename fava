@@ -5,7 +5,8 @@ set -ue
 cd $(dirname "$0")
 
 if ! [[ -d venv ]]; then
-  python3 -m venv .venv
+  echo Installing fava ...
+  python3 -m venv venv
   venv/bin/pip3 install -r requirements.txt
 fi
 
