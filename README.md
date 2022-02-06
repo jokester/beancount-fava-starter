@@ -10,11 +10,11 @@ See [awesome-beancount](https://github.com/siddhantgoel/awesome-beancount/) for 
 
 ## Requirements
 
-- MacOS / Linux: a recent installation with `bash` and `python3` is likely to be fine.
+- MacOS / Linux / Unices: a recent installation with `bash` and `python3` is likely to be fine. Some distributions require `python3-venv` `python3-dev` or alike package.
 
-- Other Unices: you may need extra OS packages to install packages from `pip`.
+- Windows (WSL2): Should work like a Linux Distribution
 
-- Windows / WSL: not tested yet. Reports / PRs are welcome.
+(If you have trouble running, issues/PRs are welcome)
 
 ## How to use
 

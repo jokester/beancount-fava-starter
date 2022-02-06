@@ -1,0 +1,19 @@
+#!bash
+
+# install latest fava from pip 
+
+set -ue
+
+cd $(dirname "$0")
+
+if [[ -d venv ]] || [[ -e requirements.txt ]] ; then
+  echo '"venv" or "requirements.txt" existed. remove them and try again.'
+fi
+
+echo Installing fava ...
+set -x
+python3 -m venv venv
+venv/bin/pip3 install wheel
+venv/bin/pip3 install fava
+venv/bin/pip3 freeze > requirements.txt
+
