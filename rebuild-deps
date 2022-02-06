@@ -8,6 +8,7 @@ cd $(dirname "$0")
 
 if [[ -d venv ]] || [[ -e requirements.txt ]] ; then
   echo '"venv" or "requirements.txt" existed. remove them and try again.'
+  exit 1
 fi
 
 echo Installing fava ...
