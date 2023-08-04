@@ -1,6 +1,6 @@
 #!bash
 
-# install latest fava from pip 
+# rebuild requirements.txt by installing leaf packages in a clean venv
 
 set -ue
 
