@@ -5,10 +5,12 @@ set -ue
 cd $(dirname "$0")
 
 if ! [[ -d venv ]]; then
-  echo Installing fava ...
+  echo Initializing python3 venv
   python3 -m venv venv
-  venv/bin/pip3 install -r requirements.txt
 fi
+
+venv/bin/pip3 install -r requirements.txt
+# venv/bin/playwright install # expect user to have chrome for now.
 
 set -x
 exec venv/bin/fava ./main.beancount "$@"

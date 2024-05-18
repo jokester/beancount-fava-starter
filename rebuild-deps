@@ -15,6 +15,6 @@ echo Installing fava ...
 set -x
 python3 -m venv venv
 venv/bin/pip3 install wheel
-venv/bin/pip3 install fava
+venv/bin/pip3 install fava playwright
 venv/bin/pip3 freeze > requirements.txt
 
