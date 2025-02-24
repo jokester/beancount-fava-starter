@@ -2,9 +2,7 @@
 
 ---
 
-[Readme in Chinese / 中文说明](README-zhcn.md)
-
-A starter repository to try fava / beancount.
+A starter pack to try fava / beancount plain text accounting.
 
 See [awesome-beancount](https://github.com/siddhantgoel/awesome-beancount/) for introduction and other resources around [beancount / fava](https://github.com/beancount)
 

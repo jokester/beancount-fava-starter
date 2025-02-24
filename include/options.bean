@@ -1,0 +1,7 @@
+2021-01-01 custom "fava-option" "language" "en"
+
+option "operating_currency" "JPY"
+option "operating_currency" "RMB"
+option "operating_currency" "USD"
+option "operating_currency" "TWD"
+option "operating_currency" "HKD"

@@ -1,0 +1,3 @@
+include "include/*.bean"
+include "books/*.bean"
+include "archive/*/*.bean"

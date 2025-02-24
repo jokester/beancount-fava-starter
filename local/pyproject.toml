@@ -1,0 +1,4 @@
+[project]
+name = "local_package"
+description = "install in local venv to make importing easier"
+version = "0.1.0"

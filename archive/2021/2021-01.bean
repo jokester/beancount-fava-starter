@@ -1,0 +1,11 @@
+2021-01-01 * "salary"
+  Income:Salary         -1,000USD
+  Assets:Bank:Chartered +1,000USD
+
+2021-01-06 * "draw cash"
+  Assets:Bank:Chartered -200USD
+  Assets:Cash:Purse     +200USD
+
+2021-01-09 * "dinner"
+  Expenses:Food      +20USD
+  Assets:Cash:Purse
