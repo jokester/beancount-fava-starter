@@ -1,0 +1,9 @@
+2024-12-25 * "santa claus"
+    Income:Gift -10,000JPY
+    Assets:Cash:Purse +10,000JPY
+
+2024-12-20 * "example inc"
+    Income:Salary -500,000JPY
+    Expenses:Tax +100,000JPY
+    Expenses:Insurance +30,000JPY
+    Assets:Bank:Chartered

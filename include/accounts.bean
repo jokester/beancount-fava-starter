@@ -1,9 +1,23 @@
+; 資産
 2021-01-01 open Assets:Cash:Purse
 2021-01-01 open Assets:Bank:Chartered
+2021-01-01 open Assets:Device
+; 収益
 2021-01-01 open Income:Salary
+2021-01-01 open Income:Gift
+; 費用
+2021-01-01 open Expenses:Traffic
 2021-01-01 open Expenses:Food
+2021-01-01 open Expenses:Food:Resturant
+2021-01-01 open Expenses:Food:Self
+2021-01-01 open Expenses:Pet
+2021-01-01 open Expenses:Pet:Food
+2021-01-01 open Expenses:Pet:Consumable
 2021-01-01 open Expenses:Life
 2021-01-01 open Expenses:Travel
-2021-01-01 open Liability:CreditCard:SMBC1
+2021-01-01 open Expenses:Tax
+2021-01-01 open Expenses:Insurance
+; 負債
+2021-01-01 open Liabilities:CreditCard:SMBC1
 
 ; open/close more accounts as you need

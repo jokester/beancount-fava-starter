@@ -1,0 +1,8 @@
+2025-01-01 * "Amazon"
+    Expenses:Pet:Food +5,000JPY
+    Expenses:Pet:Consumable +2,000JPY
+    Liabilities:CreditCard:SMBC1
+
+2025-01-31 * "creditcard bill"
+    Liabilities:CreditCard:SMBC1 +7,000JPY
+    Assets:Bank:Chartered
